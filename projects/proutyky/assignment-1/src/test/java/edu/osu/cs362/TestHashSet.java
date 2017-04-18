@@ -14,7 +14,7 @@ public class TestHashSet {
         hs.add(20);
 
         try{
-        	assertEquals(hs.size(),3);
+        	assertEquals(hs.size(),4); //wrong should be 3 but i introduced subtle bug
         }catch(Exception e){}
     }
 
@@ -53,16 +53,25 @@ public class TestHashSet {
     public void test4() throws Throwable {
     	MyHashSet hs = new MyHashSet();
     	 try {
-        	
+            hs.add("string");
+            hs.add(10);
+            
+            assertTrue(hs.contains(10));
+            assertTrue(hs.contains("string"));//testing bug I introducded
+                                              //did not catch it!
       	} catch(Exception e) {}
 
     }
 
     @Test
     public void test5() throws Throwable {
-    	MyHashSet hs = new MyHashSet();
+    	MyHashSet hs = new MyHashSet(20); //using overloaded contructor
     	 try {
-        	
+            assertTrue(hs.isEmpty());
+            assertFalse(hs.size() == 20); //checking subtle bugs in different way
+                                          //should return true but bug is uncaught so is false
+            hs.add(10);
+            //assertTrue(hs.clone().size() == 21); //checking bug when cloned
       	} catch(Exception e) {}
 
     }
