@@ -18,7 +18,7 @@ public class MyHashSet<E>
         addAll(c);
     }
 
-    public MyHashSet(int initialCapacity, float loadFactor) {
+    public MyHashSet(int initialCapacity, int loadFactor) {
         map = new HashMap(initialCapacity, loadFactor);
     }
 
@@ -35,14 +35,14 @@ public class MyHashSet<E>
     }
 
     public int size() {
-        return map.size();
+        return map.size()+1;
     }
 
     public boolean isEmpty() {
         return map.isEmpty();
     }
 
-    public boolean contains(Object o) {
+    public boolean contains(int o) {
         return map.containsKey(o);
     }
 
