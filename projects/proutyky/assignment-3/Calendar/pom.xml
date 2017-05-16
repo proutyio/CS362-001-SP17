@@ -51,14 +51,12 @@
         </targetClasses>
 			<targetTests>
 			<!--A list of your tests available to be run.-->
-        <!--
 			    <param>edu.osu.cs362.ApptTest</param>
 			    <param>edu.osu.cs362.CalDaytest</param>
-			    <param>edu.osu.cs362.TimeTableTest</param> -->
+			    <param>edu.osu.cs362.TimeTableTest</param>
           <param>edu.osu.cs362.TestClass</param>
-
           <param>edu.osu.cs362.Appt_ESTest</param>
-          <!--<param>edu.osu.cs362.CalDay_ESTest</param>-->
+          <param>edu.osu.cs362.CalDay_ESTest</param>
           <param>edu.osu.cs362.TimeTable_ESTest</param>
 
 			</targetTests>
