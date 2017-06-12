@@ -1,0 +1,71 @@
+* Starting client
+* Connecting to master process on port 16722
+* Analyzing classpath: 
+  - /home/r00t/Desktop/FinalProject/URLValidatorInCorrect/target/classes
+  - /home/r00t/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/r00t/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class finalprojectB.InetAddressValidator
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 17
+  - Branch 13
+  - Exception 0
+  - MutationFactory 42
+  - Output 6
+  - Method 4
+  - MethodNoException 4
+  - CBranchFitnessFactory 13
+* Using seed 1496938246459
+* Starting evolution
+* Search finished after 44s and 1323 generations, 305679 statements, best individual has fitness: 85.42307692307692
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 29%
+* Total number of goals: 17
+* Number of covered goals: 5
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 31%
+* Total number of goals: 13
+* Number of covered goals: 4
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100% (no goals)
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 7%
+* Total number of goals: 42
+* Number of covered goals: 3
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 50%
+* Total number of goals: 6
+* Number of covered goals: 3
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 31%
+* Total number of goals: 13
+* Number of covered goals: 4
+* Generated 3 tests with total length 5
+* Resulting test suite's coverage: 56% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 7%
+* Compiling and checking tests
+* Writing JUnit test case 'InetAddressValidator_ESTest' to /home/r00t/Desktop/FinalProject/URLValidatorInCorrect/.evosuite/tmp_2017_06_08_09_05_39/tests
+* Done!
+
